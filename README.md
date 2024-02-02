@@ -1,6 +1,6 @@
 # Primer ejemplo de organización
 
-**Autor** : Diego Alonso Molina
+**Autor** : Diego Alonso Molina (Full Stack Developer)
 
 ## Organización
 
