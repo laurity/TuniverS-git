@@ -16,7 +16,7 @@
 16.	LÓPEZ ALONSO, LAURA	https://github.com/laurity
 17.	LORENZO RUIZ, IVÁN	https://github.com/Ivanlr96
 18.	MARÍN LÓPEZ, TRISTÁN	https://github.com/trisml
-19.	MENENDEZ BLANCO, DAVID	https://github.com/DavidMenendezBlanco
+19.	MENENDEZ BLANCO, DAVID	https://github.com/DavCode46
 20.	ORDIZ PEREZ, JORGE	https://github.com/joropge
 21.	REVIEJO VALLE, ALFONSO	https://github.com/alfonn13
 22.	Ruiz Prieto, Alejandro	https://github.com/Alesso-ai
