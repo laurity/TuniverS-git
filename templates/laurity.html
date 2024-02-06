@@ -1,1 +1,140 @@
-Trabajar aqu¡  
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../img/img-laura/image.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            spacing: {
+                "1/4": '%25',
+                "2/4": '%50',
+                "3/4": '%75',
+            },
+            fontFamily: {
+            'proxima': ['"proxima nova light"', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+            },
+            colors: {
+              clifford: "#da373d",
+              white: "#ffffff",
+              gray: "#2E2E2E",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="m-0 p-0 font-proxima">
+    <!--Header-->
+    <header class=" w-100">
+      <nav class="bg-black flex items-center justify-center ">
+        <a href="laurity.html"
+          ><img src="/TuniverS-git/img/img-laura/image.png" alt="Icono" class="w-20 h-20 object-cover hover:opacity-50 transition duration-500"
+        /></a>
+
+        <!--Menu-->
+        <div class="flex items-center justify-center text-white gap-x-10 pl-28">
+       <a href="https://www.adhamdannaway.com/about"> <span class="text-white hover:opacity-50 transition duration-500">about</span> </a>
+       <a href="https://www.adhamdannaway.com/ui-design-book"> <span class="text-white hover:opacity-50 transition duration-500">book</span> </a>
+       <a href="https://www.adhamdannaway.com/portfolio"><span class="text-white hover:opacity-50 transition duration-500">portfolio</span> </a> 
+        <a href="https://www.adhamdannaway.com/blog"><span class="text-white hover:opacity-50 transition duration-500">blog</span> </a>
+        <a href="https://www.adhamdannaway.com/contact"><span class="text-white hover:opacity-50 transition duration-500">contact</span> </a>
+    </div>
+
+    <!--Iconos-->
+
+    <div class="flex items-center gap-x-5 h-1/4 y-1/4 px-20" >
+        <a href="https://twitter.com/AdhamDannaway">
+        <span class="hover:opacity-50 transition duration-500"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256"
+            style="fill:#000000;">
+            <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M24,4.30078c-0.89844,0.39844 -1.80078,0.69922 -2.80078,0.80078c1,-0.60156 1.80078,-1.60156 2.19922,-2.70312c-1,0.60156 -2,1 -3.09766,1.20313c-1,-1 -2.30078,-1.60156 -3.69922,-1.60156c-2.70312,0 -4.90234,2.19922 -4.90234,4.89844c0,0.40234 0,0.80078 0.10156,1.10156c-4.10156,-0.19922 -7.69922,-2.10156 -10.10156,-5.10156c-0.5,0.70313 -0.69922,1.60156 -0.69922,2.5c0,1.70313 0.89844,3.20313 2.19922,4.10156c-0.80078,-0.10156 -1.59766,-0.30078 -2.19922,-0.60156c0,0 0,0 0,0.10156c0,2.39844 1.69922,4.39844 3.89844,4.80078c-0.39844,0.09766 -0.79687,0.19922 -1.29687,0.19922c-0.30078,0 -0.60156,0 -0.90234,-0.10156c0.60156,2 2.40234,3.40234 4.60156,3.40234c-1.69922,1.30078 -3.80078,2.09766 -6.10156,2.09766c-0.39844,0 -0.80078,0 -1.19922,-0.09766c2.19922,1.39844 4.80078,2.19922 7.5,2.19922c9.10156,0 14,-7.5 14,-14c0,-0.19922 0,-0.39844 0,-0.60156c1,-0.69922 1.80078,-1.59766 2.5,-2.59766"></path></g></g>
+            </svg>
+        </span>
+    </a>
+        <a href="https://au.linkedin.com/in/adhamdannaway">
+        <span class="hover:opacity-50 transition duration-500">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256"
+style="fill:#000000;">
+<g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M41,4h-32c-2.76,0 -5,2.24 -5,5v32c0,2.76 2.24,5 5,5h32c2.76,0 5,-2.24 5,-5v-32c0,-2.76 -2.24,-5 -5,-5zM17,20v19h-6v-19zM11,14.47c0,-1.4 1.2,-2.47 3,-2.47c1.8,0 2.93,1.07 3,2.47c0,1.4 -1.12,2.53 -3,2.53c-1.8,0 -3,-1.13 -3,-2.53zM39,39h-6c0,0 0,-9.26 0,-10c0,-2 -1,-4 -3.5,-4.04h-0.08c-2.42,0 -3.42,2.06 -3.42,4.04c0,0.91 0,10 0,10h-6v-19h6v2.56c0,0 1.93,-2.56 5.81,-2.56c3.97,0 7.19,2.73 7.19,8.26z"></path></g></g>
+</svg>
+        </span>
+        <a href="https://www.facebook.com/iLikeAdham/">
+        <span class="hover:opacity-50 transition duration-500">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256"
+style="fill:#000000;">
+<g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8.53333,8.53333)"><path d="M12,27v-12h-4v-4h4v-2.148c0,-4.067 1.981,-5.852 5.361,-5.852c1.619,0 2.475,0.12 2.88,0.175v3.825h-2.305c-1.435,0 -1.936,0.757 -1.936,2.291v1.709h4.205l-0.571,4h-3.634v12z"></path></g></g>
+</svg>
+        </span>
+    </a>
+
+    <a href="https://www.instagram.com/adham.dannaway/">
+        <span class="hover:opacity-50 transition duration-500">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256"
+style="fill:#ffff;">
+<g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M16,3c-7.16752,0 -13,5.83248 -13,13v18c0,7.16752 5.83248,13 13,13h18c7.16752,0 13,-5.83248 13,-13v-18c0,-7.16752 -5.83248,-13 -13,-13zM16,5h18c6.08648,0 11,4.91352 11,11v18c0,6.08648 -4.91352,11 -11,11h-18c-6.08648,0 -11,-4.91352 -11,-11v-18c0,-6.08648 4.91352,-11 11,-11zM37,11c-1.10457,0 -2,0.89543 -2,2c0,1.10457 0.89543,2 2,2c1.10457,0 2,-0.89543 2,-2c0,-1.10457 -0.89543,-2 -2,-2zM25,14c-6.06329,0 -11,4.93671 -11,11c0,6.06329 4.93671,11 11,11c6.06329,0 11,-4.93671 11,-11c0,-6.06329 -4.93671,-11 -11,-11zM25,16c4.98241,0 9,4.01759 9,9c0,4.98241 -4.01759,9 -9,9c-4.98241,0 -9,-4.01759 -9,-9c0,-4.98241 4.01759,-9 9,-9z"></path></g></g>
+</svg>
+        </span>
+    </a>
+    </div>
+      </nav>
+    </header>
+
+    <!--Section 1-->
+    <section class="flex justify-center relative shadow-md ">
+      <img src="https://www.adhamdannaway.com/wp-content/themes/dannaway/images/adham-dannaway-designer-coder.jpg" alt="Section 1" >
+      <div class="absolute left-12 ml-5 top-1/2 transform -translate-y-1/2 fixed">
+        <div class="text-left inline-block p-4">
+            <h1 class="text-7xl font-bold mb-4 text-gray">designer</h1>
+            <p class="w-3/4 font-thin">Product designer specialising in UI design and design systems.</p>
+        </div>
+    </div>
+    <div class="absolute right-5 mr-5 top-1/2 transform -translate-y-1/2 fixed">
+        <h1 class="text-7xl font-bold mb-4 text-gray"><span class="chevron-left">&lt;</span>coder<span class="chevron-right">&gt;</span></h1>
+        <p class="w-3/4 font-thin">Front end developer who writes clean, elegant and efficient code.</p>
+    </div>
+  </section>
+
+    <!--Section 2-->
+    <section class="flex items-center justify-center bg-gray-200 p-32">
+
+      <p>SOME OF MY LASTEST WORKS</p>
+
+      <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
+        <div class="flex-shrink-0">
+          <img class="h-12 w-12" src="https://www.adhamdannaway.com/wp-content/uploads/2022/12/feature-ui-design-book.jpg" alt="ChitChat Logo">
+        </div>
+        <div>
+          <div class="text-xl font-medium text-black">ChitChat</div>
+          <p class="text-gray-500">You have a new message!</p>
+        </div>
+      </div>
+      
+      <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
+        <div class="flex-shrink-0">
+          <img class="h-12 w-12" src="https://www.adhamdannaway.com/wp-content/uploads/2020/08/feature-william-hill-design-system.jpg" alt="ChitChat Logo">
+        </div>
+        <div>
+          <div class="text-xl font-medium text-black">ChitChat</div>
+          <p class="text-gray-500">You have a new message!</p>
+        </div>
+      </div>
+      
+      <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
+        <div class="flex-shrink-0">
+          <img class="h-12 w-12" src="https://www.adhamdannaway.com/wp-content/uploads/2019/04/feature-interior-design-news-feed-2.jpg" alt="ChitChat Logo">
+        </div>
+        <div>
+          <div class="text-xl font-medium text-black">ChitChat</div>
+          <p class="text-gray-500">You have a new message!</p>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer></footer>
+  </body>
+</html>
